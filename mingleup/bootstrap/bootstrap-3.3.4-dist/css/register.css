@@ -1,0 +1,93 @@
+
+<style>
+
+#header {
+    background-color:#9932CC;
+    color:white;
+    text-align:center;
+    padding:5px;
+    font-style: italic;
+    
+}
+.btn{
+	background-color: #9932CC;
+	color: white;
+}
+.btn2{
+	width: 70px;
+    height: 25px;
+	
+	
+}
+#nav {
+    line-height:30px; 
+   
+    float:left;
+    padding:5px;
+    	      
+}
+#h1{
+	font-style: italic;
+	margin:  0px 0px 0px 100px;
+}
+.logintxt{
+	height: 38px;
+	width:350px;
+}
+.mytxt{
+	height: 35px;
+	width:400px;
+}
+.textbox{
+	height: 25px;
+	width: 100px;
+}
+.text{
+	color:white;
+	text-align:left;
+}
+td{
+	padding: 15px;	
+}
+caption{
+	font-size: 30px;
+	margin: 0px 0px 0px 70px;
+	
+}
+#logo{
+	margin: 120px 0px 0px 200px;
+}
+
+#section {
+	background-color:#eeeeee;
+    width:500px;
+    height:510px;
+    float:left;
+    padding:15px;	 	 
+}
+#footer {
+    background-color:9932CC;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+
+
+/*Container*/
+
+.box h3{
+	text-align:center;
+	position:relative;
+	top:80px;
+}
+.box {
+	width:40%;	
+	height:410px;
+	background:#FFF;
+	margin:40px auto;
+}
+
+
+
+</style>

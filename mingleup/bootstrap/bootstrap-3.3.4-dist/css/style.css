@@ -1,0 +1,37 @@
+body{
+	background-color:pink;
+	padding:0;
+	margin:0;
+	font: 72.5% 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+}
+.wrapper{
+	width:820px;
+	margin:30px auto;
+	padding:25px;
+	min-height:400px;
+	height:auto;	
+}
+.wrapper h2 { margin-top:30px;}
+
+.box h3{
+	text-align:center;
+	position:relative;
+	top:80px;
+}
+.box {
+	width:70%;
+	height:200px;
+	background:#FFF;
+	margin:40px auto;
+}
+
+/*==================================================
+ * Effect 1
+ * ===============================================*/
+ .effect1{
+	-webkit-box-shadow: 0 10px 6px -11px #777;
+	   -moz-box-shadow: 0 10px 6px -11px #777;
+	        box-shadow: 0 10px 6px -11px #777;
+}
+
+</style>

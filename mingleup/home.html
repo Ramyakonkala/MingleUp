@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+="robots" content="noindex">
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<meta charset=utf-8 />
+<title>JS Bin</title>
+<style id="jsbin-css">
+.like{
+  border-radius:4px;
+  text-align:center;
+  display:inline-block;
+  padding:3px 10px;
+  background:#ddd;
+  cursor:pointer;
+  box-shadow: 0 1px 1px -1px #666;
+}
+.userLikes{
+  background:#bada55;
+}
+</style>
+</head>
+<body>
+ 
+  
+  
+<span class="like">0</span>   
+<span class="like userLikes">3</span> 
+<span class="like">6</span> 
+<span class="like">12</span>
+  
+  
+<script id="jsbin-javascript">
+function like( el,val ){
+  $(el).text(++val);
+}
+
+function dislike( el,val ){
+  $(el).text(--val);
+}
+
+$('.like').click(function(){
+  var val = $(this).text();
+  $(this).toggleClass('userLikes');
+  return $(this).hasClass('userLikes') ? like(this,val) : dislike(this,val);
+});
+
+
+
+
+</script>
+</body>
+</html>
